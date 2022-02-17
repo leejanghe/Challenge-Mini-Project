@@ -28,8 +28,7 @@ function handleRandomClick(){
     console.log(Math.floor(Math.random()*colors.length))
     const color1 = colors[Math.floor(Math.random()*colors.length)]
     const color2 = colors[Math.floor(Math.random()*colors.length)]
-    const color3 = colors[Math.floor(Math.random()*colors.length)]
-    randomColor.style.backgroundImage = `linear-gradient(0.25turn, ${color1}, ${color2}) ${color3})`;
+    randomColor.style.backgroundImage = `linear-gradient(0.25turn, ${color1}, ${color2})`;
 }
 
 
