@@ -1,0 +1,41 @@
+input{
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(2, 31, 10);
+    color: #fff;
+    font-size: 2rem;
+}
+
+button:active{
+    background-color: red;
+    transform: scale(.99);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e89898;
+    color: #fff;
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
