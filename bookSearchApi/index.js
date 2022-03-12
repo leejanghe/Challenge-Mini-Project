@@ -45,7 +45,7 @@ $.ajax({
 //     },
 //   });
 //      response.then(res => {
-//     console.log(res)
+//     console.log('1',res)
 // })
 
 
