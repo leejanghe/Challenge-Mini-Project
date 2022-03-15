@@ -1,0 +1,31 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url("https://w.namu.la/s/58ee6d58483ae33aa0077cd345f595888bfe562711c1652fafb8e17e1b43d17f8869c3f106ddc0384e482b94e57e519cfff61d72d7b9852963ac825408f8365a0e507cfae9c5e0d41d68e99d629c08d7585e97a0539fd0c5e315919d75e3ec51")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
